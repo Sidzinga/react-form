@@ -1,9 +1,16 @@
-.App {
-  text-align: center;
+.App {background-color: bisque;
+  height: 100vmin;
+  ;
 }
 
+
+.left{float: left;
+position:absolute;}
+
+.right{float: right;
+  position:relative;}
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
@@ -13,6 +20,26 @@
   }
 }
 
+.input {
+  margin-top: 20px;
+height: 20px;
+position: inherit;
+}
+label {
+  
+}
+.myForm {
+
+margin-top: 80px;
+padding-top: 30px;
+background-color: chocolate;
+text-align: center;
+
+height: 60vmin;
+}
+.container {
+
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +62,7 @@
   to {
     transform: rotate(360deg);
   }
+}
+textarea{
+  height: 50px;
 }
